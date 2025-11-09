@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(timeout 10 python:*)",
+      "Bash(curl:*)",
+      "Bash(cmake:*)",
+      "Bash(uvicorn:*)",
+      "Bash(pip uninstall:*)",
+      "Bash(pip install:*)",
+      "Bash(pipwin install:*)",
+      "Bash(netstat:*)",
+      "Bash(taskkill:*)",
+      "Bash(for file in start-all-services.bat start-backend-only.bat start-backend.bat start-frontend.bat start-speech-api-only.bat stop-all-services.bat update-frontend.bat)",
+      "Bash(do sed -i 's/ReCall/Memento/g' \"$file\")",
+      "Bash(echo:*)",
+      "Bash(done)",
+      "Bash(for file in CLAUDE.md CONFIGURATION_SUMMARY.md LOCAL_SETUP.md QUICK_START.md README.md)",
+      "Bash(findstr:*)",
+      "Bash(tasklist:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

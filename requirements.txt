@@ -1,0 +1,29 @@
+# Core Backend Dependencies
+pymongo
+fastapi
+certifi
+python-dotenv
+uvicorn
+
+# Face Recognition & Computer Vision
+face_recognition
+opencv-python
+deepface
+numpy
+
+# GUI (for FaceRecognition.py)
+PyQt5
+
+# Speech Recognition & AI
+SpeechRecognition
+groq
+pyaudio
+
+# HTTP Requests
+requests
+
+# Geolocation (for reminder_geo.py)
+geopy
+
+# Data Validation
+pydantic
